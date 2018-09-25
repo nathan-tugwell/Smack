@@ -18,6 +18,7 @@
 		5DC57E15215A27A50080910D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC57E14215A27A50080910D /* GradientView.swift */; };
 		5DC57E18215A40800080910D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC57E17215A40800080910D /* Constants.swift */; };
 		5DC57E1A215A449C0080910D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC57E19215A449C0080910D /* LoginViewController.swift */; };
+		5DC57E1C215A5FD80080910D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC57E1B215A5FD80080910D /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		5DC57E14215A27A50080910D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		5DC57E17215A40800080910D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5DC57E19215A449C0080910D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5DC57E1B215A5FD80080910D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		EE6BAD997F959F583F91E5EC /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				5D9CA32A21591DBB00E87C49 /* ChatViewController.swift */,
 				5D9CA32C21591DCE00E87C49 /* ChannelViewController.swift */,
 				5DC57E19215A449C0080910D /* LoginViewController.swift */,
+				5DC57E1B215A5FD80080910D /* CreateAccountViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				5D350F482158F2160096FEF9 /* AppDelegate.swift in Sources */,
 				5D9CA32B21591DBB00E87C49 /* ChatViewController.swift in Sources */,
 				5DC57E15215A27A50080910D /* GradientView.swift in Sources */,
+				5DC57E1C215A5FD80080910D /* CreateAccountViewController.swift in Sources */,
 				5D9CA32D21591DCE00E87C49 /* ChannelViewController.swift in Sources */,
 				5D9CA3262159181500E87C49 /* SWRevealViewController.m in Sources */,
 				5DC57E18215A40800080910D /* Constants.swift in Sources */,

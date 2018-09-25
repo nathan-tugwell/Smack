@@ -11,3 +11,5 @@ import Foundation
 //segues
 
 let TO_LOGIN = "loginSegue"
+let TO_CREATE_ACCOUNT = "createAccountSegue"
+let UNWIND = "unwindToChannelSegue"

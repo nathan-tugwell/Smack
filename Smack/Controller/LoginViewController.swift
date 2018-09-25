@@ -9,18 +9,17 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-
     }
 
     @IBAction func closedButtonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func createAccountButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
     }
     
 }

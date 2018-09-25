@@ -10,9 +10,10 @@ import UIKit
 
 class ChannelViewController: UIViewController {
     
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {}
+    
     // Outlets
     @IBOutlet weak var loginButton: UIButton!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
