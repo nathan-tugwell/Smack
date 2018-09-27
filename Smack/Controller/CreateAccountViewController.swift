@@ -38,6 +38,7 @@ class CreateAccountViewController: UIViewController {
         }
     }
     
+    
     @IBAction func pickAvatarPressed(_ sender: Any) {
         
     }
