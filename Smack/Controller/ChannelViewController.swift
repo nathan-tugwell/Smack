@@ -26,5 +26,5 @@ class ChannelViewController: UIViewController {
         performSegue(withIdentifier: TO_LOGIN, sender: self)
         
     }
-    
+
 }

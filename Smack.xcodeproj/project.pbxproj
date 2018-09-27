@@ -12,6 +12,8 @@
 		5D350F4D2158F2160096FEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D350F4B2158F2160096FEF9 /* Main.storyboard */; };
 		5D350F4F2158F2160096FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D350F4E2158F2160096FEF9 /* Assets.xcassets */; };
 		5D350F522158F2160096FEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D350F502158F2160096FEF9 /* LaunchScreen.storyboard */; };
+		5D56CF80215B820C002883BA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56CF7F215B820C002883BA /* AuthService.swift */; };
+		5D56CF82215BB90D002883BA /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D56CF81215BB90D002883BA /* RoundedButton.swift */; };
 		5D9CA3262159181500E87C49 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9CA3252159181500E87C49 /* SWRevealViewController.m */; };
 		5D9CA32B21591DBB00E87C49 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9CA32A21591DBB00E87C49 /* ChatViewController.swift */; };
 		5D9CA32D21591DCE00E87C49 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9CA32C21591DCE00E87C49 /* ChannelViewController.swift */; };
@@ -30,6 +32,8 @@
 		5D350F4E2158F2160096FEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D350F512158F2160096FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D350F532158F2160096FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D56CF7F215B820C002883BA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5D56CF81215BB90D002883BA /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		5D9CA3232159181500E87C49 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		5D9CA3242159181500E87C49 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5D9CA3252159181500E87C49 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		5D350F462158F2160096FEF9 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				5D56CF7E215B81F4002883BA /* Services */,
 				5DC57E16215A40700080910D /* Utilities */,
 				5D9CA32921591D5600E87C49 /* Model */,
 				5D9CA32821591D4E00E87C49 /* View */,
@@ -96,6 +101,14 @@
 				5D350F532158F2160096FEF9 /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		5D56CF7E215B81F4002883BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5D56CF7F215B820C002883BA /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		5D9CA31F2159171E00E87C49 /* Supporting Files */ = {
@@ -123,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				5DC57E14215A27A50080910D /* GradientView.swift */,
+				5D56CF81215BB90D002883BA /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC57E1A215A449C0080910D /* LoginViewController.swift in Sources */,
+				5D56CF82215BB90D002883BA /* RoundedButton.swift in Sources */,
 				5D350F482158F2160096FEF9 /* AppDelegate.swift in Sources */,
 				5D9CA32B21591DBB00E87C49 /* ChatViewController.swift in Sources */,
+				5D56CF80215B820C002883BA /* AuthService.swift in Sources */,
 				5DC57E15215A27A50080910D /* GradientView.swift in Sources */,
 				5DC57E1C215A5FD80080910D /* CreateAccountViewController.swift in Sources */,
 				5D9CA32D21591DCE00E87C49 /* ChannelViewController.swift in Sources */,
